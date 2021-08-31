@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+          <head>
+            
+          
+            <title>Html Generated</title>
+            <meta name="description" content="Figma htmlGenerator">
+            <meta name="author" content="htmlGenerator">
+            <link rel = "icon" href ="logo.png" type = "image/x-icon">
+            <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+            <link rel="stylesheet" href="styles.css">
+            
+            <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+            
+
+              
+            
+          
+          </head>
+          
+          <body>
+            <div id="loading">
+              <img src="images/loading.gif" alt="" />
+            </div>
+            <div class=e3_30>
+              <div class=e25_4>
+                <div class="e3_32"></div>
+                <div class=e40_28>
+                  <div class="e13_4"></div>
+                  <button class="e40_37" type="button" onclick ="logIn()">LOG IN</button>
+                </div>
+                <div class=e40_35>
+                  <div class="e40_36"></div>
+                  <button class="e40_37" type="button" onclick ="signUp()">SIGN UP</button>
+                </div>
+                <div class=e25_6>
+                  <div class="e40_26"></div>
+                  <input class ="e11_10" type ="password" id ="password" placeholder="Password">
+                </div>
+                <div class=e70_2>
+                  <div class="e70_3"></div>
+                  <select class ="e11_10" id ="type" name="type">
+                    <option value="Teacher">Teacher</option>
+                    <option value="Student">Student</option>
+                  </select>
+                </div>
+                <div class=e25_5>
+                  <div class="e3_36">
+                  </div>
+                  <input class ="e11_10" type ="email" id ="mail" placeholder="Email">
+                </div>
+                <span  class="e3_35">Login</span>
+                <div class="e61_2"></div>
+                
+                <div class="e40_30" onclick="google()"></div>
+              </div>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+            <!-- Firebase -->
+            
+        <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase.js"></script>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-app.js"></script>
+        
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.3.0/firebase-analytics.js"></script>
+        <!-- Add Firebase products that you want to use -->
+        <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-auth.js"></script>
+        
+        <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
+
+        
+
+        
+
+        <!--script src=”/__/firebase/7.14.4/firebase-app.js”></script-->
+
+          
+
+         <!--script src=”/__/firebase/7.14.4/firebase-auth.js”></script-->
+
+        <script>
+          // Your web app's Firebase configuration
+          const firebaseConfig = {
+            apiKey: "AIzaSyCr35Yp2pJO6iR6cbzPpoioA_2EYj6uwEc",
+            authDomain: "flipr---web-development.firebaseapp.com",
+            projectId: "flipr---web-development",
+            storageBucket: "flipr---web-development.appspot.com",
+            messagingSenderId: "176247173838",
+            appId: "1:176247173838:web:8b6e1e27b40040519dd69f",
+            measurementId: "G-42SLJL1YCL",
+            databaseURL: "https://flipr---web-development-default-rtdb.firebaseio.com/"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+          firebase.analytics();
+          firebase.database();
+        </script>
+        <script src="firebase.js"></script>
+      <script type="text/javascript">
+        window.onload = function(){
+          document.getElementById("loading").style.display="none";
+        }
+      </script>
+
+          </body>
+          </html>

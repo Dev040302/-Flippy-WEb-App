@@ -1,0 +1,97 @@
+.bg_img{
+    overflow:hidden;
+	width:1960px;
+	height:1080px;
+	position:absolute;
+	background-image:url(pexels-olia-danilevich-5088017.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.bar{
+    position: absolute;
+    width: 1956px;
+    height: 124.72px;
+    left: 4px;
+    top: -1px;
+    background-image: url(bar.png);
+}
+
+.Questiontab{
+    position: absolute;
+    width: 1564px;
+    height: 204px;
+    left: 181.5px;
+    top: 191px;
+    background-image: url(Question\ tab.png);
+}
+
+.uploadpdf{
+
+    position: absolute;
+width: 367px;
+height: 90px;
+left: 182px;
+top: 462px;
+
+background: #9F8C6E;
+border-radius: 50px;
+
+/* text*/
+
+position: absolute;
+width: 325.33px;
+height: 66.45px;
+left: calc(50% - 325.33px/2 - 616.33px);
+top: 474px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+}
+
+.submit{
+
+    position: absolute;
+    width: 367px;
+    height: 90px;
+    left: 181px;
+    top: 594px;
+    
+    background: #9F8C6E;
+    border-radius: 50px;
+
+/*text*/    
+position: absolute;
+width: 325.33px;
+height: 66.45px;
+left: calc(50% - 325.33px/2 - 617.33px);
+top: 606px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+opacity: 0.5;
+}
+
+.marksandgradingstatustab{
+    position: absolute;
+width: 1564px;
+height: 204px;
+left: 181px;
+top: 802px;
+background-image:totalmarksandgradingstatustab.png;
+}
