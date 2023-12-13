@@ -13,6 +13,7 @@ storageRef.child('Assignments/').listAll().then(function(result){
 });
 
 function displayImage(row,images){
+//downloaded images 
 
 images.getDownloadURL().then(function(url){
 
